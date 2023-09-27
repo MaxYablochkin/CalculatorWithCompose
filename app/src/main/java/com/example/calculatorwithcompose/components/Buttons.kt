@@ -28,7 +28,7 @@ import androidx.compose.ui.unit.sp
 import com.example.calculatorwithcompose.ui.theme.CalculatorWithComposeTheme
 
 @Composable
-fun UpperButton(
+internal fun UpperButton(
     symbol: String,
     modifier: Modifier = Modifier,
     backgroundColor: Color = Color.Transparent,
@@ -53,7 +53,7 @@ fun UpperButton(
 
 
 @Composable
-fun CalculatorRoundButton(
+internal fun CalculatorRoundButton(
     symbol: String,
     modifier: Modifier = Modifier,
     backgroundColor: Color = MaterialTheme.colorScheme.surfaceVariant,
